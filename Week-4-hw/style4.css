@@ -1,14 +1,79 @@
 body {
     width: 100%;
+    background-color: #D4F7EC;
+    height: 100vh;
 }
 
 header {
-    padding: 20px;
+    padding: 10px;
+    font-family: 'Viga', sans-serif;
+    background-color: #448D76;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #340926;
+    font-size: smaller;
+    display: inline-block;
+    background-color: #448D76;
+}
+
+h2 {
+    color: #FCBA12;
+    font-size: smaller;
+    display: inline-block;
+    background-color: #448D76;
+}
+
+#Qnumber {}
+
+.Main {
+    position: fixed;
+    width: 50%;
+    height: 40%;
+    top: -10%;
+    margin: auto;
+}
+
+#start {
+    background-color: #D4F7EC;
+    color: #AE0D7A;
+    border: #340926 solid 1px;
+    position: absolute;
 }
 
 #test {
-    Padding: 10px 40px 40px 40px;
-    border: black solid 2px;
+    padding: 10px;
+    border: #340926 solid 2px;
+    position: absolute;
+    border-radius: 10%;
+    width: 50%;
+    height: 40%;
+    top: 18%;
+    left: 25%;
 }
 
-#submit {}
+#submit {
+    position: absolute;
+    left: 75%;
+    bottom: -50px;
+    background-color: #448D76;
+    color: #D4F7EC;
+    font-family: 'Inconsolata', monospace;
+    width: 20%;
+    height: 15%;
+    font-size: 2.2vw;
+    text-align: center;
+    border: #D4F7EC solid 1px;
+    border-radius: 25%;
+}
+
+#submit:hover {
+    border: #340926 solid 1px;
+    color: #FCBA12;
+}
