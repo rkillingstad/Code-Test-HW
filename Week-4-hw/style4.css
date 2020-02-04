@@ -30,7 +30,28 @@ h2 {
     background-color: #448D76;
 }
 
-#Qnumber {}
+#start {
+    background-color: #D4F7EC;
+    color: #AE0D7A;
+    border: #448D76 solid 1px;
+    position: absolute;
+    padding: 15px;
+    margin: 20px;
+    width: 50%;
+    height: 60px;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 25px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-align: center;
+    left: 25%;
+}
+
+#start:hover {
+    border: #340926 solid 1px;
+    color: #FCBA12;
+    background-color: #448D76;
+}
 
 .Main {
     position: fixed;
@@ -40,11 +61,10 @@ h2 {
     margin: auto;
 }
 
-#start {
-    background-color: #D4F7EC;
+#Qnumber {
+    margin: 5px;
+    font-family: 'Viga', sans-serif;
     color: #AE0D7A;
-    border: #340926 solid 1px;
-    position: absolute;
 }
 
 #test {
@@ -76,4 +96,28 @@ h2 {
 #submit:hover {
     border: #340926 solid 1px;
     color: #FCBA12;
+}
+
+#radioButtons {
+    color: #AE0D7A
+}
+
+#chA {
+    display: inline;
+    color: black;
+}
+
+#chB {
+    display: inline;
+    color: black;
+}
+
+#chC {
+    display: inline;
+    color: black;
+}
+
+#chD {
+    display: inline;
+    color: black;
 }

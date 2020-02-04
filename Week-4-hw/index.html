@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <header>
+        <h1 id="h1">Test Your Knowledge:</h1>
+        <h2 id="h2">JavaScript</h2>
+
+
+    </header>
+
+    <button id="start">START</button>
+
+
+    <div class="main">
+
+
+
+        <div id="test">
+            <div id="Qnumber"></div>
+            <div id="progress"></div>
+
+            <div id="question"></div><br>
+
+            <div id="choices">
+                <form id="radioButtons">
+                    <div id="Q1">
+                        <input type="radio" name="choices" value="0">A:
+                        <p id="chA"></p><br>
+
+                        <input type="radio" name="choices" value="1">B:
+                        <p id="chB"></p><br>
+
+                        <input type="radio" name="choices" value="2">C:
+                        <p id="chC"></p><br>
+
+                        <input type="radio" name="choices" value="3">D:
+                        <p id="chD"></p><br>
+                    </div>
+
+                </form>
+
+            </div><br>
+
+            <div id="timer"></div><br>
+            <div id="scoreContainer"></div>
+
+            <button id="submit">
+            Submit
+            </button>
+
+        </div>
+
+        <div id="scores">
+        </div>
+
+
+
+    </div>
+
+
+    <script src="./script4.js "></script>
+</body>
+
+</html>
